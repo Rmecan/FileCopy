@@ -2,11 +2,11 @@
 ## プログラムとしてやりたいこと
 1. 対象のディレクトリから指定のディレクトリへファイルをコピーする。
 1. ファイルの検索条件は下記の通り。
-    1. 更新日時（from-to）
-    1. 指定されたディレクトリ（allowlist）
-    1. 指定された拡張子（allowlist）
-    1. 指定されたディレクトリ（denylist）
-    1. 指定された拡張子（denylist）
+    1. 更新日時（between from-date and to-date）
+    1. 指定されたディレクトリ（allowlist for directories）
+    1. 指定された拡張子（allowlist for files）
+    1. 検索対象から除外する為に列挙されたディレクトリ（denylist for directories）
+    1. 検索対象から除外する為に列挙された拡張子（denylist for files）
 1. コピーしたファイルはログファイルとして出力する。
 1. 更新日時以外の検索条件は外部ファイルに覚える。
 
